@@ -29,30 +29,67 @@
     object-fit: cover;
     z-index: -1;
   }
+  .text-center {
+    color:white;
+    text-align: center !important;
+    background-image: url("./imgg.jpeg");
+  }
+
+  .page-section {
+    padding: 6rem 0;
+    background-color: #0d6efd;
+    height: 200px;
+  }
   .main-title {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     font-size: 6rem;
     transform: translate(-50%, -30%);
   }
+
+  .container2{
+    background-color: black;;
+  }
+  .h4{
+    color: black;
+  }
+  .nav-link{
+    padding:20px;
+    font-size: larger;
+    align-items: flex-start;
+  }
+  section-heading text{ font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .main{
+    margin-left: 900px;
+    display: flex;
+  flex-wrap: inherit;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  }
   
   .content {
     width: 100%;
-    background: rgb(24, 24, 24);
-    min-height: 100vh;
+    background:#fff;
+    min-height : 100vh;
     z-index: 2;
     position: absolute;
   }
   .content-images {
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 60vh;
+    min-height: 100px;
     text-align: center;
   }
   
   .text {
+    color: #0d6efd;
     padding: 2rem 20rem;
     font-size: 1.1rem;
   }
